@@ -13,7 +13,7 @@ int main() {
 	int rand_num;
 
 	for (int i = 0; i < 10; i++) {
-		rand_num = rand() % 16 - 5;
+		rand_num = rand() % 11;
 		rand_arr[i] = rand_num;
 		cout << "¬ведите число от 0 до 10: ";
 		cin >> answer;
