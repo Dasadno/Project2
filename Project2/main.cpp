@@ -14,7 +14,7 @@ int main() {
 		arr[i] = rand() % 16 - 5;
 		cout << arr[i] << ' ';
 		cout << endl;
-		if (i == 10)
+		if (i == 9)
 		{
 			cout << endl;
 		}
